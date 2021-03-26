@@ -1,0 +1,26 @@
+/*Geral*/
+
+body{
+    font: normal 16px/22px Open Sans;
+}
+
+h2 span{
+    font-size: 2.5em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+/*Hero Book*/
+
+
+
+.hero-book {
+    height: 600px;
+    background: #7738C9;
+}
+
+.title-book h1{
+    font-size: 4em;
+}
