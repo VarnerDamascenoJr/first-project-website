@@ -11,6 +11,11 @@ h2 span{
 h3{
     font-size: 1.5em;
 }
+a{
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+}
 
 /*Hero Book*/
 
@@ -69,7 +74,15 @@ h3{
     padding: 15px;
    
 }
+.wrap_BTN {
 
-.wrap-btn {
+}
 
+.BTN-orange {
+    background: #FFB300;
+    width: 100%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
 }
