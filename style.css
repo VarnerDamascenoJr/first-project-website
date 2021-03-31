@@ -75,7 +75,9 @@ a{
    
 }
 .wrap_BTN {
-
+    padding: 18px 48px;
+    color: #FFF;
+    backgrpund: #FF0014;
 }
 
 .BTN-orange {
