@@ -1,90 +1,15 @@
-/*Geral*/
-
-body{
-    font: normal 16px/22px Open Sans;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-h2 span{
-    font-size: 2.5em;
+h1 {
+    font-family: Roboto;
 }
-
-h3{
-    font-size: 1.5em;
+p{
+    font-family: Roboto;
+    font-weight: 300;
 }
-a{
-    text-decoration: none;
-    color: #FFF;
-    display: block;
-}
-
-/*Hero Book*/
 
 
 
-.hero-book {
-    
-    background: #7738C9;
-    height: 600px;
-    display: grid;
-    padding: 0px 60px;
-    color: #FFF;
-}
-
-.title-book h1{
-    font-size: 4em;
-
-    line-height: .8rem;
-}
-
-.title-book h1 span{
-    font-size: .4rem;
-    display: block;
-}
-
-.title-book h2 {
-    font-size: 13px;
-    color: #44D1B6;
-}
-.title-book p {
-    font-size: 16px;
-    color: #44D1B6;
-    padding: 15px;
-    display: inline;
-}
-.wrap-book{
-    position: relative;
-}
-
-.wrap-book book{
-    width: 100%;
-}
-.wrap-book p {
-    position: absolute;
-    top:-50px;
-    left: -30px;
-    background: #FFB300 no-repeat;
-    display: flex;
-    font-size: 0.7em;
-    text-align: center;
-    height: 68px;
-    width: 68px;
-    line-height: 1.2em;
-    box-shadow: 0px 3px 6px #00000029;
-    border-radius: 50%;
-    padding: 15px;
-   
-}
-.wrap_BTN {
-    padding: 18px 48px;
-    color: #FFF;
-    backgrpund: #FF0014;
-}
-
-.BTN-orange {
-    background: #FFB300;
-    width: 100%;
-    font-size: 1.6em;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
-}
