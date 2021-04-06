@@ -11,5 +11,53 @@ p{
     font-weight: 300;
 }
 
+a{
+    text-decoration: none;
+}
+.logo {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: yellowgreen;
+}
 
+header {
+    position: fixed;
+    left: 50%;
+    top: 0;
+}
+ul li{
+
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: tomato;
+
+}
+
+.content {
+    box-sizing: border-box;
+    padding: 80px 20px 30px 80px;
+    background-color:yellow;
+}
+
+.content h1 {
+    box-sizing: border-box;
+    font-size: 70px;
+}
+
+.content p{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.btn-cta {
+    margin: 0 10px 10px 80px;
+    background-color: teal;
+    padding: 15px 40px;
+    border-radius: 30px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
 
