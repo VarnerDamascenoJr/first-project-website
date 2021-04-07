@@ -14,6 +14,11 @@ p{
 a{
     text-decoration: none;
 }
+
+.wrap {
+    background: #edf2f4;
+    height: 800px;
+}
 .logo {
     display: inline-block;
     padding: 20px 40px;
@@ -31,14 +36,18 @@ ul li{
     padding: 15px 40px;
     font-size: 22px;
     font-weight: 700;
-    background-color: tomato;
+    
+    border-radius: 50px;
 
+}
+ul li:hover{
+    background: #8d99ae;
 }
 
 .content {
     box-sizing: border-box;
     padding: 80px 20px 30px 80px;
-    background-color:yellow;
+
 }
 
 .content h1 {
@@ -59,5 +68,29 @@ ul li{
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+
+}
+.btn-cta:hover {
+    padding: 25px 60px;
+    background-color: darkorchid;
 }
 
+img {
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+
+.second{
+    background: #2b2d42;
+    height: 500px;
+}
+
+.second h2 {
+    padding-top: 25px;
+    text-align: center;
+    color: #edf2f4;
+    font-size: 40px;
+}
