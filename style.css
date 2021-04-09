@@ -79,13 +79,14 @@ img {
     background-repeat: no-repeat;
     position: absolute;
     right: 5%;
-    top: 5%;
+    top: 2%;
+
 }
 
 
 .second{
     background: #2b2d42;
-    height: 500px;
+    height: 800px;
 }
 
 .second h2 {
@@ -93,4 +94,53 @@ img {
     text-align: center;
     color: #edf2f4;
     font-size: 40px;
+}
+
+.box-content {
+    box-sizing: border-box;
+    width: 900px;
+    height: 400px;
+    background: #edf2f4;
+    position: absolute;
+    right: 22%;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+.box-content .cta-1{
+    font-weight: 500;
+    margin-top: 45px;
+}
+.box-content p{
+    font-size: 23px;
+    padding-left: 25px;
+}
+.box-content h2{
+    color: black;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 50px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.ar-exp .box {
+    box-sizing: border-box;
+    width: 900px;
+    height: 400px;
+    background: darkslategray;
+    background: linear-gradient(to right, darkslategray , #edf2f4);
+    position: absolute;
+    right: 22%;
+    margin-top: 100px;
+    border-radius: 50px;
+    opacity: .5;
+}
+
+.circle {
+    display: inline-block;
+    box-sizing: border-box;
+    background: deeppink;
+    padding: 200px;
+    border-radius: 100%;
+    
 }
