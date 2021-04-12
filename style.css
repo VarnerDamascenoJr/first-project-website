@@ -17,7 +17,7 @@ a{
 
 .wrap {
     background: #edf2f4;
-    height: 800px;
+    height: 760px;
 }
 .logo {
     display: inline-block;
@@ -142,5 +142,7 @@ img {
     background: deeppink;
     padding: 200px;
     border-radius: 100%;
+    position: relative;
+    left: 45%;
     
 }
