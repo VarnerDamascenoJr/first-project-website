@@ -68,10 +68,14 @@ ul li:hover{
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
 
 }
 .btn-cta:hover {
-    padding: 25px 60px;
+    transition: .3s;
+    padding: 20px 60px;
     background-color: darkorchid;
 }
 
@@ -80,7 +84,6 @@ img {
     position: absolute;
     right: 5%;
     top: 2%;
-
 }
 
 
@@ -123,6 +126,10 @@ img {
     padding-bottom: 20px;
 }
 
+.ar-exp {
+    height: 600px;
+}
+
 .ar-exp .box {
     box-sizing: border-box;
     width: 900px;
@@ -133,16 +140,18 @@ img {
     right: 22%;
     margin-top: 100px;
     border-radius: 50px;
-    opacity: .5;
 }
 
-.circle {
-    display: inline-block;
-    box-sizing: border-box;
-    background: deeppink;
-    padding: 200px;
-    border-radius: 100%;
-    position: relative;
-    left: 45%;
-    
+.box h2{
+    color: black;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.box p{
+    font-size: 23px;
+    padding-left: 25px;
 }
