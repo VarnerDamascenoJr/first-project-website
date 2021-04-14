@@ -30,17 +30,16 @@ header {
     left: 50%;
     top: 0;
 }
-ul li{
+.nav ul li{
 
     display: inline-block;
     padding: 15px 40px;
     font-size: 22px;
     font-weight: 700;
-    
     border-radius: 50px;
 
 }
-ul li:hover{
+.nav ul li:hover{
     background: #8d99ae;
 }
 
@@ -154,4 +153,48 @@ img {
 .box p{
     font-size: 23px;
     padding-left: 25px;
+}
+
+footer{
+    height: 400px;
+}
+.contact-footer h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.contact-footer {
+    display: block;
+    background: #2b2d42;
+    float: left;
+    width: 600px;
+}
+.contact-footer li{
+    padding: 10px 40px;
+}
+.contact-footer li a{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.social-footer{
+    float: left;
+    width: 300px;
+
+}
+.social-footer li{
+    padding: 10px 40px;
+}
+
+
+.contact-news{
+    float: left;
+    width: 619px;
+    background: chartreuse;
+    height: 200px;
+}
+
+.contact-news .btn-cta02{
+    background: magenta;
+    border-radius: 50px;
+    padding: 10px 15px;
 }
