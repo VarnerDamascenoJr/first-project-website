@@ -161,6 +161,7 @@ footer{
 .contact-footer h2 {
     text-align: center;
     font-size: 30px;
+    color: #edf2f4;
 }
 .contact-footer {
     display: block;
@@ -174,27 +175,44 @@ footer{
 .contact-footer li a{
     font-size: 16px;
     font-weight: 600;
+    color: #edf2f4;
+}
+
+.contact-footer li a:hover{
+    color: #8d99ae;
 }
 
 .social-footer{
     float: left;
     width: 300px;
-
+    background: #2b2d42;
+}
+.social-footer h2{
+    color: #edf2f4;
 }
 .social-footer li{
     padding: 10px 40px;
 }
-
+.social-footer li a {
+    color: #edf2f4;
+    font-weight: 600;
+}
 
 .contact-news{
     float: left;
     width: 619px;
-    background: chartreuse;
+    background: #2b2d42;
     height: 200px;
 }
 
-.contact-news .btn-cta02{
-    background: magenta;
-    border-radius: 50px;
-    padding: 10px 15px;
+
+.contact-news input{
+    margin-top: 30px;
+    padding: 10px 40px;
+    border-radius: 40px;
+    border: none;
+}
+.contact-news .final-btn{
+    padding: 10px 40px;
+    border: none;
 }
